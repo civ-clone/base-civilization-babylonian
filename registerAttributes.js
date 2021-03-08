@@ -6,6 +6,6 @@ const AttributeRegistry_1 = require("@civ-clone/core-civilization/AttributeRegis
 Object.entries({
     people: 'Babylonian',
     nation: 'Babylon',
-    colors: ['#63e367', '#2f7b00', '#fff'],
+    colors: ['#D0B8A6', '#2f7b00'],
 }).forEach(([name, value]) => AttributeRegistry_1.instance.register(new Attribute_1.default(Babylonian_1.default, name, value)));
 //# sourceMappingURL=registerAttributes.js.map
